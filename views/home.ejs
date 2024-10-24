@@ -3,9 +3,23 @@
 <head>
     <%- include('./partials/head') %>
     <title>Home Page</title>
+    <style>
+        .title{
+            font-weight:500;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 100px;
+            text-align: center;
+        }
+
+        .logo{
+            color: grey;
+        }
+    </style>
 </head>
 <body>
     <%- include('./partials/nav') %>
+
+    <h1 class="container mt-3 mb-3 title">Welcome to <i class="logo">Blogify</i></h1>
 
     <div class="container mt-3">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
